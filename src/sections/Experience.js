@@ -31,7 +31,7 @@ const Experience = () => {
   ];
 
   return (
-    <section className="experience-section py-16 px-6 md:px-20">
+    <section id="skills" className="experience-section py-16 px-6 md:px-20">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
         My <span className="text-blue-600">Experience</span>
       </h2>

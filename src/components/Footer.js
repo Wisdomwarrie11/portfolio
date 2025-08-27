@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="bg-dark text-light py-3">
       <Container className="text-center">
-        <p>© {new Date().getFullYear()} Your Name | Built with React & Bootstrap</p>
+        <p>© {new Date().getFullYear()} Wisdom Warrie | Built with React & Bootstrap</p>
       </Container>
     </footer>
   );

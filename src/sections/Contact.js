@@ -1,7 +1,14 @@
 import React from "react";
 import { Container, Form, Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 function Contact() {
+const navigate = useNavigate
+
+function handleClick() {
+  navigate('https://studi-rad.vercel.app')
+}
+
   return (
     <section id="contact" className="py-5 bg-light">
       <Container>
@@ -23,7 +30,7 @@ function Contact() {
           </Form.Group>
 
           <div className="text-center">
-            <Button variant="info" type="submit" className="px-5">
+            <Button onClick={handleClick()} variant="info" type="submit" className="px-5">
               Send Message
             </Button>
           </div>
