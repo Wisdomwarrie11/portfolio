@@ -1,0 +1,50 @@
+.tech-section {
+    background: linear-gradient(135deg, #f6f9fc, #e9f3ff);
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: #00d8ff;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+  
+  .tech-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .tech-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+  
+  .tech-logo {
+    width: 70px;
+    height: 70px;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .tech-card:hover .tech-logo {
+    transform: rotate(10deg) scale(1.1);
+  }
+  
+  .tech-card p {
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
